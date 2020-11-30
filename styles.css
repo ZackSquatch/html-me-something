@@ -1,0 +1,75 @@
+* {
+    background-color: rgb(255, 224, 157);
+    margin: 50px;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
+
+img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.blackCats {
+    border: 25px solid rgb(0, 0, 0);
+}
+
+.orangeCats {
+    border: 25px solid rgb(189, 107, 0);
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px;
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(224, 110, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+h2 {
+    font-family: fantasy;
+    font-size: 50px;;
+    margin: auto;
+    padding: 0px;
+}
+
+h4 {
+    font-family: monospace;
+    font-size: 35px;
+    margin: auto;
+    padding: 0px;
+}
+
+ul {
+    margin: auto;
+    padding: 0px;
+}
+
+li {
+    font-family: monospace;
+    margin: auto;
+    padding: 2px;
+}
+
+#pruneyList {
+    color: rgb(160, 6, 165);
+}
+
+#gwartyList {
+    color: rgb(223, 0, 0);
+}
+
+#chungyList {
+    color: rgb(10, 70, 180);
+}
+
+#tummyList {
+    color: rgb(0, 131, 39);
+}
